@@ -2089,6 +2089,7 @@ input, select, textarea {
 			color: #76ddff;
 		}
 
+
 /* Image */
 
 	.image {
@@ -3411,7 +3412,6 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
 			width: 7em;
 		}
 
@@ -3996,4 +3996,19 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+	.square_btn{
+		display: inline-block;
+		padding: 0.3em 0.5em;
+		text-decoration: none;
+		background: #668ad8;/*Button Color*/
+		color: #FFF;
+		border-bottom: solid 4px #627295;
+		border-radius: 1px;
+	}
+	.square_btn:active {/*on Click*/
+		-ms-transform: translateY(4px);
+		-webkit-transform: translateY(4px);
+		transform: translateY(4px);/*Move down*/
+		border-bottom: none;/*disappears*/
 	}
